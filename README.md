@@ -6,15 +6,7 @@ This repo is a desperate attempt to store and track information I deem important
 
 ## 📚 What's Inside
 
-- **LINUX**// — commands, scripts, painful nvidia ordeals
-
-## 🚀 Quick Navigation
-
-### Linux Learning
-- [Basics & Commands](./LINUX/basics.md)
-- [File System & Permissions](./LINUX/file-system.md)
-- [Navigation](./LINUX/navigation.md)
-- [Getting Help](./LINUX/getting-help.md)
+- **LINUX** — commands, scripts, painful nvidia ordeals
 
 ## 📝 How I Use This
 
