@@ -6,7 +6,7 @@ This repo is a desperate attempt to store and track information I deem important
 
 ## 📚 What's Inside
 
-- **LINUX/** — commands, scripts, painful nvidia ordeals
+- **LINUX//** — commands, scripts, painful nvidia ordeals
 
 ## 🚀 Quick Navigation
 
