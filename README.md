@@ -15,14 +15,6 @@ This repo is a desperate attempt to store and track information I deem important
 3. Works on any distro I hop to
 4. Always accessible, always there
 
-## ⚙️ Setup
-
-**Current Setup:**
-- Running Kali Purple bare metal (not VM)
-- Shell: zsh
-- NVIDIA RTX 3050 (using stock drivers for stability)
-- Learning from: Linux Basics for Hackers
-
 ---
 
 *Last updated: 2026-06-13*
