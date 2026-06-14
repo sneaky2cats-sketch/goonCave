@@ -4,3 +4,8 @@ whoami
 uname
 hostname
 ```
+```Bash
+.
+..
+cd ../,,
+```
