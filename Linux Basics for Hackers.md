@@ -1,7 +1,5 @@
-# 🗺️ Linux Basics for Hackers: Survival Guide
-
-> **Note:** A curated collection of essential commands for system enumeration, navigation, and text manipulation.
-
+# 🗺️ Linux Basics for Hackers
+> **Note:** A curated collection of essential commands.
 ---
 
 ## 📖 Chapter 1: Recon & Navigation
