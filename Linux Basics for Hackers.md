@@ -42,5 +42,5 @@ history | grep snapper
 ```Bash
 Summary Cheat Sheet
 Tool	Search Mode	Go to Next	Go to Last (Previous)
-less / man	/term	n	N
+less / man	/term	n	          N
 Terminal History	Ctrl + R	Ctrl + S	Ctrl + R
