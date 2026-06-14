@@ -19,7 +19,6 @@ cd ../..
 ```
 ### Getting Help
 ```Bash
-ls -d
 help command
 command --help
 command -h
@@ -28,6 +27,7 @@ command -?
 ### Finding Stuff
 ```Bash
 locate fileName
+updatedb
 which filename
 find -type file -name fileName.\* 2> /dev/null
 ```
