@@ -1,4 +1,3 @@
-```markdown
 # 🗺️ Linux Basics for Hackers: Survival Guide
 
 > **Note:** A curated collection of essential commands for system enumeration, navigation, and text manipulation.
