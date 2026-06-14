@@ -35,5 +35,5 @@ find -type file -name fileName.\* 2> /dev/null
 ```Bash
 nl /etc/passwd
 grep noob /etc/passwd
-tail -n+10 /etc/passwd | head 3
+tail -n+10 /etc/passwd | head -n 3
 ```
