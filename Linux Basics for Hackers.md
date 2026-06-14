@@ -38,9 +38,3 @@ grep noob /etc/passwd
 tail -n+10 /etc/passwd | head -n 3
 history | grep snapper
 ```
-## 😫 In less and man
-```Bash
-Summary Cheat Sheet
-Tool	Search Mode	Go to Next	Go to Last (Previous)
-less / man	/term	n	          N
-Terminal History	Ctrl + R	Ctrl + S	Ctrl + R
