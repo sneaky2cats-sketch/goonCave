@@ -9,3 +9,10 @@ hostname
 ..
 cd ../,,
 ```
+```Bash
+ls -d
+help command
+command --help
+command -h
+command -?
+```
