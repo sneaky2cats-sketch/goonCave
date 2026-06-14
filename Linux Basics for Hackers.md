@@ -40,3 +40,7 @@ tail -n+10 /etc/passwd | head -n 3
 history | grep snapper
 ```
 ### 📖 Chapter 3
+## 🐶 Inspect the Network
+```Bash
+ip a
+```
