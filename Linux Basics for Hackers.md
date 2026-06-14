@@ -81,7 +81,3 @@ ip a                                  # View all active IP and MAC addresses (Re
 ip r                                  # Check your routing table and default gateway
 
 ```
-
-What do you think of this layout for your repository?
-
-```
