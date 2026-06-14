@@ -1,14 +1,17 @@
 ## Chapter 1
+### Identifying
 ```Bash
 whoami
 uname
 hostname
 ```
+### Moving Around
 ```Bash
 .
 ..
 cd ../,,
 ```
+### Getting Help
 ```Bash
 ls -d
 help command
@@ -16,6 +19,7 @@ command --help
 command -h
 command -?
 ```
+### Finding Stuff
 ```Bash
 locate fileName
 which filename
