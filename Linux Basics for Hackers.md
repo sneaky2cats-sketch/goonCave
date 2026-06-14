@@ -15,7 +15,7 @@ ps
 ```Bash
 .
 ..
-cd ../,,
+cd ../..
 ```
 ### Getting Help
 ```Bash
