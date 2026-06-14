@@ -51,9 +51,9 @@ command -h        # Short form help flag
 Locating hidden configuration files, target scripts, or specific binaries:
 
 ```bash
-locate fileName                             # Fast database search for files
-sudo updatedb                               # Fixes "Short read/corrupted" database errors
-which filename                              # Shows the absolute path of an executable binary
+locate fileName                              # Fast database search for files
+sudo updatedb                                # Fixes "Short read/corrupted" database errors
+which filename                               # Shows the absolute path of an executable binary
 find . -type f -name "fileName*" 2>/dev/null # Deep search, hiding permission errors
 
 ```
@@ -67,7 +67,7 @@ find . -type f -name "fileName*" 2>/dev/null # Deep search, hiding permission er
 ```bash
 nl /etc/passwd                        # View a file with line numbers attached
 grep "noob" /etc/passwd               # Search and extract lines containing a specific keyword
-tail -n+10 /etc/passwd | head -n 3   # Slices the file to print exactly lines 10-12
+tail -n+10 /etc/passwd | head -n 3    # Slices the file to print exactly lines 10-12
 history | grep "snapper"              # Search your past commands for specific keywords
 
 ```
