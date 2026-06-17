@@ -1,18 +1,17 @@
-🧰 Toolkit
-This will be my toolkit.
-🔍 curl & grep
-bash
-Run
+# 🧰 Toolkit
+> *This will be my toolkit.*
 
+### 🔍 `curl` & `grep`
+```bash
 curl -sL mzelo.com | grep -iEC 5 browser|vpn|ip
 
-    curl → Visits site & fetches code
-        -s = Silent (clean output)
-        -L = Follow redirects
-    grep → Searches text
-        -i = Ignore case
-        -E = Extended patterns
-        -C 5 = Show ±5 lines around match
-        browser|vpn|ip = Keywords to find
+    curl → Visit website & fetch page content
+        -s = Silent mode → hides progress / errors → clean output
+        -L = Follow redirects → loads final page if URL moves
+    grep → Search & filter text from the output
+        -i = Ignore case → matches Browser / BROWSER / browser
+        -E = Extended regex → allows | (OR) in search terms
+        -C 5 = Context → shows 5 lines before + after every match
+        browser|vpn|ip = Keywords → search for any of these words
 
-    📌 Legend: curl [options] [url] | grep [options] [terms]
+    📌 Format: curl [options] [url] | grep [options] [terms]
