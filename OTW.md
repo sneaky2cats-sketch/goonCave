@@ -24,3 +24,23 @@ file ./-file*       # Works even if filename starts with "-" ! ⚠️
 cat ./<filename>    # Use ./ to avoid mistakes with weird names ✅
 cat * 2>/dev/null   # Read all files, hide errors silently 🤫
 ```
+---
+
+## ✅ THE ONLY COMMAND YOU NEED
+```Bash
+find . -type f -size 1033c ! -executable -exec cat {} +
+```
+
+---
+
+## 📘 Breakdown (how to build it yourself):
+
+```Bash
+
+Part  Meaning
+find .	Search EVERYTHING here (all folders, hidden files, dash files, spaces)
+-type f	Only look for files (skip folders)
+-size 1033c	Exact size = 1033 bytes → c = BYTES (CRITICAL! without c it’s wrong)
+! -executable	! = NOT → file has NO execute permission (-rw-r-----)
+-exec cat {} +	Automatically print the content of what we found
+```
