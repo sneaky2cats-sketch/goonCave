@@ -3,7 +3,7 @@
 
 ---
 
-### 🔍 `curl` & `grep`
+### 🔍 Tool Number 1: `curl` & `grep`
 ```bash
 curl -sL mzelo.com | grep -iEC 5 browser|vpn|ip
 
