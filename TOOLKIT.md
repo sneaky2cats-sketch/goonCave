@@ -1,7 +1,7 @@
 # 🧰 Toolkit
 ## This will be my toolkit.
-### 🔍grep
-```bash
+### 🔍 curl and grep
+```Bash
 curl -sL mzelo.com | grep -iEC 5 browser|vpn|ip
 ``
 * curl: The tool that "visits" the website and grabs the code.
