@@ -1,9 +1,13 @@
 # 🧰 Toolkit
+
 ## This will be my toolkit.
+
 ### 🔍 curl and grep
+
 ```Bash
 curl -sL mzelo.com | grep -iEC 5 browser|vpn|ip
-``
+```
+
 * curl: The tool that "visits" the website and grabs the code.
    * -s (Silent): Keeps the terminal clean by hiding progress bars and
      download speeds.
