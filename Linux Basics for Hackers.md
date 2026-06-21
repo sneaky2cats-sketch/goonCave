@@ -136,4 +136,10 @@ pacman -Rs package  # removes a package and its dependencies
 pacman -Rsn         # removes a package, it's dependencies and config files
 ```
 
+### 😫 In arch based distros, the repositories are stored in:
+
+```bash
+/etc/pacman.onf
+```
+
 ---
