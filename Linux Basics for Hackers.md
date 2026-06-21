@@ -107,3 +107,11 @@ ip link set dev z down                       # bring the interface down
 ip link set dev z address XX:XX:XX:XX:XX:XX  # change mac address
 ip link set dev z up                         # duh
 ```
+
+### 🐕 Digging with dig
+
+```bash
+dig website.com  # defaults to addess record type
+dig ns website.com          # name server record type
+dig website.com mx          # mail server record type
+dig txt website.com +short  # text reord type, shot version
