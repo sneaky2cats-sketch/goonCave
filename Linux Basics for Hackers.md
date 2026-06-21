@@ -2,7 +2,7 @@
 > **Note:** A curated collection of essential commands.
 ---
 
-## 📖 Chapter 1: Recon & Navigation
+## 📖 Chapter 1: Getting Started with the Basics
 
 ### 🔍 Identifying the System
 Before executing payloads or scripts, figure out who you are and what machine you're standing on:
@@ -60,6 +60,7 @@ find . -type f -name "fileName*" 2>/dev/null  # Deep search, hiding permission e
 
 ## 📖 Chapter 2: Text Manipulation
 
+---
 
 ### 😲 Inspecting and Filtering Files
 
@@ -78,7 +79,7 @@ history | grep "snapper"            # Search your past commands for specific key
 n / N       # Next match / Previous (Last) match
 
 ```
-## 📖 Chapter 3: Networking
+## 📖 Chapter 3: Analyzing and Managing Networks
 
 ### 🐶 Inspecting the Network
 
@@ -131,3 +132,22 @@ dig @8.8.8.8 website.com    # specifies a dns resolver
 
 ---
 
+## Chapter 4: Adding and Removing Software
+
+---
+
+### 👾 Searching, Installing and Removing Packages in Arch
+
+---
+
+```bash
+
+pacman -S package   # installs a packaage
+pacman -Ss          # lists EVERY package in the repo
+pacman -Ss package  # lists non installed matches
+pacman -Q           # lists every installed package
+pacman -Q package   # lists installed matches
+pacman -Qs package  # lists matches
+pacman -R package   # removes a package
+pacman -Rs package  # removes a package and its dependencies
+pacman -Rsn         # removes a package, it's dependencies and config files
