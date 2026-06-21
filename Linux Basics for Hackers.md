@@ -56,11 +56,7 @@ find . -type f -name "fileName*" 2>/dev/null  # Deep search, hiding permission e
 
 ```
 
----
-
 ## 📖 Chapter 2: Text Manipulation
-
----
 
 ### 😲 Inspecting and Filtering Files
 
@@ -90,16 +86,12 @@ ip r                                          # Check your routing table and def
 iw dev                                        # Lists wireless devices and their"phy"
 ```
 
----
-
 ### ⚔️ Replacing IP and Netmask
 
 ```bash
 ip addr replace x.x.x.x/y dev z               # Assigns a new ip address and netmask
 it addr replace x.x.x/y broadcat x.x.x dev z  # assigns a broadcast as well
 ```
-
----
 
 ### 🥷 Spoofing the Mac Address
 
@@ -108,8 +100,6 @@ ip link set dev z down                       # bring the interface down
 ip link set dev z address XX:XX:XX:XX:XX:XX  # change mac address
 ip link set dev z up                         # duh
 ```
-
----
 
 ### 🐕 Digging with dig
 
@@ -121,8 +111,6 @@ dig txt website.com +short  # text reord type, shot version
 dig @8.8.8.8 website.com    # specifies a dns resolver
 ```
 
----
-
 ### 🥊 hosts and resolv.conf are stored in:
 
 ```bash
@@ -130,11 +118,7 @@ dig @8.8.8.8 website.com    # specifies a dns resolver
 /etc/hosts
 ```
 
----
-
 ## Chapter 4: Adding and Removing Software
-
----
 
 ### 👾 Searching, Installing and Removing Packages in Arch
 
@@ -151,3 +135,6 @@ pacman -Qs package  # lists matches
 pacman -R package   # removes a package
 pacman -Rs package  # removes a package and its dependencies
 pacman -Rsn         # removes a package, it's dependencies and config files
+```
+
+---
