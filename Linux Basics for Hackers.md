@@ -124,6 +124,7 @@ dig @8.8.8.8 website.com    # specifies a dns resolver
 
 ```bash
 
+pacman -Syu         # refrheses and upgrades
 pacman -S package   # installs a packaage
 pacman -Ss          # lists EVERY package in the repo
 pacman -Ss package  # lists non installed matches
